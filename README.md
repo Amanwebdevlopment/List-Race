@@ -28,11 +28,11 @@ The **List Race** project is designed to give users an intuitive experience for 
 - Well-structured UI and smooth animations.
 - Simple, intuitive user experience.
   
+## website look
+ ![image alt](https://github.com/Amanwebdevlopment/List-Race/blob/6cef46352bd9c88fd3fb5369ef703d1e9e7c95bd/Untitled%20design.png)
 ## Installation
 
 To run this project locally, follow the steps below:
-## website look
- ![image alt](https://github.com/Amanwebdevlopment/List-Race/blob/6cef46352bd9c88fd3fb5369ef703d1e9e7c95bd/Untitled%20design.png)
 
 1. **Clone the repository:**
    ```bash
