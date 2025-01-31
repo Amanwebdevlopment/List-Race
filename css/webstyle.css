@@ -538,7 +538,7 @@ nav ul li {
 }
 
 #reviews-count {
-    background: url(/images/counter-banner.jpg) no-repeat fixed;
+    background: url(./counter-banner.jpg) no-repeat fixed;
     position: relative;
     background-position: center;
     background-size: cover;
