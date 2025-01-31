@@ -1,0 +1,404 @@
+/* media for large-tablet and landscape */
+@media (max-width: 1024px) {
+    .container {
+        width: 92%;
+    }
+
+    /* topic list */
+    .service {
+        top: 24px;
+    }
+
+    .service-content {
+        margin-right: 0PX;
+    }
+
+    /* explore */
+    .explore-card {
+        font-size: 0.6rem;
+    }
+
+    .close-btn {
+        padding: 8px;
+    }
+
+    .explore-card-icon {
+        padding: 8px;
+    }
+
+    .person-profile-pic img {
+        margin: 20px 0px;
+    }
+
+    /* reviews start */
+    .reviews-card-row {
+        flex-wrap: wrap;
+    }
+
+    .reviews-card {
+        margin-top: 10px;
+        width: 40%;
+    }
+
+    /* article */
+    .article-card {
+        font-size: 0.8rem;
+    }
+
+    .mail-form input {
+        width: 400px;
+    }
+
+    .mail-form button {
+        width: 168px;
+    }
+
+    /* explore start */
+    .explore-card-row {
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .explore-card {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 0.8rem;
+    }
+
+    .explore-rating-price {
+        text-align: left;
+    }
+
+    /* article start */
+    .article-card-row {
+        flex-direction: column;
+    }
+
+    .article-card {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (max-width:800px) {
+
+    /* header start */
+    nav {
+        flex-direction: column;
+    }
+
+    #nav-ul {
+        background: white;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 95px;
+        left: -843px;
+        opacity: 0;
+        transition: all 0.5s linear;
+    }
+
+    .search-btn button {
+        margin-top: 10px;
+    }
+
+    #nav-ul li {
+        padding: 10px 0px 0px 20px;
+        
+    }
+
+    #chk {
+        top: 43px;
+        right: 41px;
+        position: absolute;
+    }
+
+    .bar-icon {
+        top: 43px;
+        right: 41px;
+        position: absolute;
+        opacity: 1;
+    }
+
+    nav ul li,
+    .nav-btn {
+        padding: 0px 0px;
+    }
+
+    /* effects */
+    #chk:checked~#nav-ul {
+        left: 0px;
+        opacity: 1;
+    }
+
+    /* banner start */
+    .banner-form-content {
+        flex-direction: column;
+    }
+
+    .search-box {
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    .search-icon {
+        padding: 0px;
+    }
+
+    /* work start */
+    .work-card {
+        padding: 20px 3px;
+    }
+
+    /* count start */
+    .count-row {
+        padding: 60px 0px 60px;
+    }
+
+    /* footer */
+    .footer-menu {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-menu ul {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        padding: 5px;
+    }
+
+    .footer-menu ul li {
+        padding: 3px;
+    }
+    #chk{right: 50px;}
+}
+
+@media (max-width:768px) {
+
+    /* banner start */
+    .banner-content {
+        padding-top: 115px;
+    }
+
+    .search-box-content {
+        flex-direction: column;
+    }
+
+    .banner-text-content {
+        font-size: 0.8rem;
+    }
+
+    /* work start */
+    .work-card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-card {
+        width: 50%;
+        margin: 10px 0px;
+    }
+
+    /* explore start  */
+    .explore-card-img {
+        width: 100%;
+    }
+
+    /* reviews start */
+    .reviews-card {
+        width: 55%;
+    }
+
+    /* reviews count start */
+    .count-num span {
+        font-size: 2rem;
+    }
+
+    .count-box {
+        font-size: 1.5rem;
+    }
+
+    /* article start */
+    .article-img {
+        width: 100%;
+    }
+
+    /* subscription start */
+    .mail-form input {
+        width: 300px;
+    }
+}
+
+@media (max-width:600px) {
+
+    /* banner start */
+    .banner-text-content {
+        font-size: 0.5rem;
+    }
+
+    /* explore start */
+    .explore-card-row {
+        align-items: center;
+    }
+
+    .explore-card {
+        flex-direction: column;
+        width: 75%;
+    }
+
+    /* reviews start */
+    .reviews-card {
+        width: 75%;
+    }
+
+    /* article start */
+    .article-card-row {
+        align-items: center;
+    }
+
+    .article-card {
+        flex-direction: column;
+        width: 75%;
+    }
+
+    /* subscription start */
+    .mail-form {
+        left: -60px;
+    }
+
+    .mail-form input {
+        width: 250px;
+    }
+
+    .mail-form button {
+        width: 120px;
+    }
+}
+
+@media (max-width:480px) {
+
+    /* global */
+    .site-heading {
+        font-size: 16px;
+    }
+
+    .site-sub-text {
+        font-size: 13px;
+    }
+
+    /* banner */
+    #banner {
+        height: 600px;
+    }
+
+    .banner-form-content {
+        margin: 90px 15px 0px 15px;
+    }
+
+    .search-name {
+        font-size: 10px;
+    }
+
+    .search-icon {
+        font-size: 15px;
+    }
+
+    .search-box {
+        padding: 0px 10px;
+    }
+
+    .search-btn button {
+        margin-left: 0px;
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    /* service */
+    .service {
+        font-size: 10px;
+    }
+
+    .service-icon {
+        font-size: 25px;
+    }
+
+    .service-content {
+        width: 90px;
+        height: 90px;
+    }
+
+    /* work */
+    .work-card {
+        width: 80%;
+    }
+
+    .work-icon {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .work-card-heading {
+        font-size: 15px;
+    }
+
+    .work-card p {
+        font-size: 10px;
+    }
+
+    .work-card-btn {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    /* explore  */
+    .explore-card {
+        width: 100%;
+    }
+
+    /* reviews */
+    .reviews-card {
+        width: 100%;
+    }
+
+    /* reviews count */
+    .count-row {
+        padding: 30px 0px 30px;
+    }
+
+    .count-box {
+        font-size: 0.5em;
+    }
+
+    .count-num span {
+        font-size: 2.5em;
+    }
+
+    /* article start */
+    .article-card {
+        width: 100%;
+    }
+
+    /* subscription start */
+    .mail-form {
+        left: -48px;
+    }
+
+    .mail-form input {
+        width: 200px;
+    }
+
+    .mail-form input::placeholder {
+        font-size: 10px;
+    }
+
+    .mail-form button {
+        width: 90px;
+        font-size: 11px;
+    }
+}

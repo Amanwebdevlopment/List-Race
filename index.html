@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Race</title>
+      <!-- i use this library for fonts "google-fonts" -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+        <!--  this is my css file here-->
+    <link rel="stylesheet" href="css/webstyle.css">
+    <!-- i add this media for laptop,mobile,tablet,landscape -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- i use this library for animation "animation.css ver-4.1.1" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <!--  i use this library for icons " awesome-icons ver-6.6" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <nav class="flexbox">
+                <div class="nav-logo">
+                    <a class="nav-btn nav-logo" href="#">
+                        list<span>race</span>
+                    </a>
+                </div>
+                <i class="fa-solid fa-bars bar-icon"></i>
+                <input type="checkbox" id="chk">
+                <ul id="nav-ul">
+                    <li class=" wow animate__animated animate__slideInUpe"><a class="nav-btn home-btn" href="">home</a>
+                    </li>
+                    <li><a class="nav-btn" href="#list-topics">how it works</a></li>
+                    <li><a class="nav-btn" href="#explore">explore</a></li>
+                    <li><a class="nav-btn" href="#reviews">review</a></li>
+                    <li><a class="nav-btn" href="#reviews-count">blog</a></li>
+                    <li><a class="nav-btn" href="#subscription">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header close -->
+    <!-- banner start -->
+    <section id="banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-text-content">
+                    <h2 class="banner-welcome-text animate__animated animate__fadeInUp">best place to find and explore
+                        <br> that all you need
+                    </h2>
+                    <p class="banner-text">
+                        Find Best Place, Restaurant, Hotel, Real State and many more think in just One click
+                    </p>
+                </div>
+                <div class="banner-form-content flexbox">
+                    <div class="search-box-content flexbox">
+                        <div class="search-box">
+
+                            <h3 class="search-name">what?</h3>
+                            <div class="left-search">
+                                <form action="#">
+                                    <input type="text" placeholder="Ex: place, Restaurant, food, automobile">
+                                </form>
+                            </div>
+                            <div class="search-icon">
+                                <i class="fa-solid fa-bars search-icon"></i>
+                            </div>
+                        </div>
+                        <div class="search-box">
+
+                            <h3 class="search-name">location</h3>
+                            <div class="right-search">
+                                <form action="#">
+                                    <input type="text" placeholder="Ex: london, new-york, rome">
+                                </form>
+                            </div>
+                            <div class="search-box-icon">
+                                <i class="fa-solid fa-location-dot search-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-btn">
+                        <button type="submit">search <i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- banner close -->
+    <!-- list-topics start -->
+    <section id="list-topics">
+        <div class="container">
+            <div class="service">
+                <ul class="services-list">
+                    <li>
+                        <div class="service-content wow animate__animated animate__bounceInUp">
+                            <div class="service-icon"><i class="fa-solid fa-bell-concierge"></i></div>
+                            <h3 class="service-name">Restaurant</h3>
+                            <p>150 listings</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-content wow animate__animated animate__bounceInUp">
+                            <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                            <h3 class="service-name">destination</h3>
+                            <p>214 listings</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-content wow animate__animated animate__bounceInUp">
+                            <div class="service-icon"><i class="fa-solid fa-hotel"></i></div>
+                            <h3 class="service-name">hotels</h3>
+                            <p>185 listings</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-content wow animate__animated animate__bounceInUp">
+                            <div class="service-icon"><i class="fa-solid fa-notes-medical"></i></div>
+                            <h3 class="service-name">health care</h3>
+                            <p>200 listings</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-content wow animate__animated animate__bounceInUp">
+                            <div class="service-icon"><i class="fa-solid fa-car"></i></div>
+                            <h3 class="service-name">automation</h3>
+                            <p>120 listings</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="work-content">
+                <h2 class="site-heading work-primary-heading">HOW IT WORKS</h2>
+                <p class="site-sub-text"> Learn More about how our website works</p>
+                <div class="work-card-row flexbox">
+                    <div class="work-card  wow animate__animated animate__bounceInLeft">
+                        <div><i class="fa-regular fa-lightbulb work-icon"></i></div>
+                        <h2 class="work-card-heading">Choose what to Do</h2>
+                        <p>Lorem ipsum dolor sit amet, confect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laboremagna aliqua.</p>
+                        <a class="work-card-btn" href="#">read more</a>
+                    </div>
+                    <div class="work-card wow animate__animated  animate__bounceInUp">
+                        <div><i class="fa-regular fa-heart work-icon"></i></i></div>
+                        <h2 class="work-card-heading">Find what you want</h2>
+                        <p>Lorem ipsum dolor sit amet, confect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laboremagna aliqua.</p>
+                        <a class="work-card-btn" href="#">read more</a>
+                    </div>
+                    <div class="work-card wow animate__animated animate__bounceInRight">
+                        <div><i class="fa-solid fa-map-location-dot work-icon"></i></i></div>
+                        <h2 class="work-card-heading">Explore amazing Place</h2>
+                        <p>Lorem ipsum dolor sit amet, confect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laboremagna aliqua.</p>
+                        <a class="work-card-btn" href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- list topic close  -->
+    <!-- explore start -->
+    <section id="explore">
+        <div class="container">
+            <h2 class="site-heading ">EXPLORE</h2>
+            <p class="site-sub-text">
+                Explore New place, food, culture around the world and many more
+            </p>
+            <!-- upper card row start -->
+            <div class="explore-card-row flexbox">
+                <!-- card 1 -->
+                <div class="explore-card wow animate__animated animate__fadeIn">
+                    <div class="explore-card-img">
+                        <img src="images/explorebar.jpg" alt="loading img" class="exp-img">
+                    </div>
+                    <div class="explore-card-content">
+                        <h2 class="explore-card-placename">
+                            <a href="#">Tommy Hilfiger Bar </a>
+                        </h2>
+                        <p class="explore-rating-price">
+                            <span class="rating">5.0</span>
+                            <a href="#" class="anchor rating-num">10 ratting</a>
+                            <span class="explore-price-box">
+                                form <span class="price">5$-300$</span>
+                            </span>
+                            <a href="#" class="anchor">Restaurant</a>
+                        </p>
+                        <div class="explore-person">
+                            <div class="person-content-row flexbox">
+                                <div class="person-profile-pic">
+                                    <a href="#">
+                                        <img src="images/person.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="ratting-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incl ut labore et dolore magna aliqua....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="open-close-part-row flexbox">
+                                    <div class="explore-card-bottom-left">
+                                        <button class="close-btn">close now</button>
+                                    </div>
+                                    <div class="explore-card-bottom-right">
+                                        <div class="icon-right">
+                                            <i class="fa-solid fa-location-dot explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-solid fa-arrow-up-right-from-square explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-regular fa-heart explore-card-icon"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="explore-card wow animate__animated animate__fadeIn">
+                    <div class="explore-card-img">
+                        <img src="images/e2.jpg" alt="loading img" class="exp-img">
+                    </div>
+                    <div class="explore-card-content">
+                        <h2 class="explore-card-placename">
+                            <a href="#">swim and dine resort</a>
+                        </h2>
+                        <p class="explore-rating-price">
+                            <span class="rating rating-bgc-5">5.0</span>
+                            <a href="#" class="anchor">10 ratting</a>
+                            <span class="explore-price-box">
+                                form <span class="price">50$-500$</span>
+                            </span>
+                            <a href="#" class="anchor">Restaurant</a>
+                        </p>
+                        <div class="explore-person">
+                            <div class="person-content-row flexbox">
+
+                                <div class="person-profile-pic">
+                                    <a href="#">
+                                        <img src="images/person.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="ratting-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incl ut labore et dolore magna aliqua....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="open-close-part-row flexbox">
+                                    <div class="explore-card-bottom-left">
+                                        <button class="close-btn">close now</button>
+                                    </div>
+                                    <div class="explore-card-bottom-right">
+                                        <div class="icon-right">
+                                            <i class="fa-solid fa-location-dot explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-solid fa-arrow-up-right-from-square explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-regular fa-heart explore-card-icon"></i>
+                                            </a>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="explore-card wow animate__animated animate__fadeIn">
+                    <div class="explore-card-img">
+                        <img src="images/e3.jpg" alt="loading img" class="exp-img">
+                    </div>
+                    <div class="explore-card-content">
+                        <h2 class="explore-card-placename">
+                            <a href="#">europe tour</a>
+                        </h2>
+                        <p class="explore-rating-price">
+                            <span class="rating rating-bgc-4">5.0</span>
+                            <a href="#" class="anchor">10 ratting</a>
+                            <span class="explore-price-box">
+                                form <span class="price">5k$-10k$</span>
+                            </span>
+                            <a href="#" class="anchor">Restaurant</a>
+                        </p>
+                        <div class="explore-person">
+                            <div class="person-content-row flexbox">
+
+                                <div class="person-profile-pic">
+                                    <a href="#">
+                                        <img src="images/person.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="ratting-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incl ut labore et dolore magna aliqua....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="open-close-part-row flexbox">
+                                    <div class="explore-card-bottom-left">
+                                        <button class="close-btn">close now</button>
+                                    </div>
+                                    <div class="explore-card-bottom-right">
+                                        <div class="icon-right">
+                                            <i class="fa-solid fa-location-dot explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-solid fa-arrow-up-right-from-square explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-regular fa-heart explore-card-icon"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- upper card row close -->
+            <!-- lower crd row -->
+            <div class="explore-card-row flexbox">
+                <!-- card 4 -->
+                <div class="explore-card wow animate__animated animate__fadeIn">
+                    <div class="explore-card-img">
+                        <img src="images/e4.jpg" alt="loading img" class="exp-img">
+                    </div>
+                    <div class="explore-card-content">
+                        <h2 class="explore-card-placename">
+                            <a href="#">bungalow with swimming pool</a>
+                        </h2>
+                        <p class="explore-rating-price">
+                            <span class="rating rating-bgc-2">5.0</span>
+                            <a href="#" class="anchor">10 ratting</a>
+                            <span class="explore-price-box">
+                                form <span class="price">10k$-15k$</span>
+                            </span>
+                            <a href="#" class="anchor">Restaurant</a>
+                        </p>
+                        <div class="explore-person">
+                            <div class="person-content-row flexbox">
+
+                                <div class="person-profile-pic">
+                                    <a href="#">
+                                        <img src="images/person.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="ratting-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incl ut labore et dolore magna aliqua....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="open-close-part-row flexbox">
+                                    <div class="explore-card-bottom-left">
+                                        <button class="close-btn">close now</button>
+                                    </div>
+                                    <div class="explore-card-bottom-right">
+                                        <div class="icon-right">
+                                            <i class="fa-solid fa-location-dot explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-solid fa-arrow-up-right-from-square explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-regular fa-heart explore-card-icon"></i>
+                                            </a>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="explore-card wow animate__animated animate__fadeIn">
+                    <div class="explore-card-img">
+                        <img src="images/e5.jpg" alt="loading img" class="exp-img">
+                    </div>
+                    <div class="explore-card-content">
+                        <h2 class="explore-card-placename">
+                            <a href="#">vintage car expo</a>
+                        </h2>
+                        <p class="explore-rating-price">
+                            <span class="rating rating-bgc-5">4.2</span>
+                            <a href="#" class="anchor">10 ratting</a>
+                            <span class="explore-price-box">
+                                form <span class="price">500$-1.2k$</span>
+                            </span>
+                            <a href="#" class="anchor">Restaurant</a>
+                        </p>
+                        <div class="explore-person">
+                            <div class="person-content-row flexbox">
+
+                                <div class="person-profile-pic">
+                                    <a href="#">
+                                        <img src="images/person.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="ratting-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incl ut labore et dolore magna aliqua....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="open-close-part-row flexbox">
+                                    <div class="explore-card-bottom-left">
+                                        <button class="close-btn">close now</button>
+                                    </div>
+                                    <div class="explore-card-bottom-right">
+                                        <div class="icon-right">
+                                            <i class="fa-solid fa-location-dot explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-solid fa-arrow-up-right-from-square explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-regular fa-heart explore-card-icon"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="explore-card wow animate__animated animate__fadeIn">
+                    <div class="explore-card-img">
+                        <img src="images/e6.jpg" alt="loading img" class="exp-img">
+                    </div>
+                    <div class="explore-card-content">
+                        <h2 class="explore-card-placename">
+                            <a href="#">Thailand Tour</a>
+                        </h2>
+                        <p class="explore-rating-price">
+                            <span class="rating rating-bgc-3">5.0</span>
+                            <a href="#" class="anchor">10 ratting</a>
+                            <span class="explore-price-box">
+                                form <span class="price">5k$-10k$</span>
+                            </span>
+                            <a href="#" class="anchor">Restaurant</a>
+                        </p>
+                        <div class="explore-person">
+                            <div class="person-content-row flexbox">
+
+                                <div class="person-profile-pic">
+                                    <a href="#">
+                                        <img src="images/person.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="ratting-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incl ut labore et dolore magna aliqua....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="open-close-part-row flexbox">
+                                    <div class="explore-card-bottom-left">
+                                        <button class="close-btn">close now</button>
+                                    </div>
+                                    <div class="explore-card-bottom-right">
+                                        <div class="icon-right">
+                                            <i class="fa-solid fa-location-dot explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-solid fa-arrow-up-right-from-square explore-card-icon"></i>
+                                            </a>
+                                            <i class="fa-regular fa-heart explore-card-icon"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- lower card row close -->
+        </div>
+    </section>
+    <!-- explore close -->
+    <!-- CLIENTS REVIEWS start -->
+    <section id="reviews">
+        <div class="container">
+            <h2 class="site-heading">CLIENTS REVIEWS</h2>
+            <p class="site-sub-text">What our client say about us</p>
+            <div class="reviews-card-row flexbox">
+                <!-- reviews card1 -->
+                <div class="reviews-card">
+                    <div class="reviews-person-info flexbox ">
+                        <div class="reviews-person-pic">
+                            <img src="images/person.png" alt="wait fot img">
+                        </div>
+                        <div class="reviews-person-det">
+                            <h2 class="reviews-person-name">tom leaker</h2>
+                            <h4 class="reviews-person-location">london,uk</h4>
+                            <div class="reviews-rating-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-person-comment">
+                        <p class="reviews-comment">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </div>
+                <!-- reviews card2 -->
+                <div class="reviews-card">
+                    <div class="reviews-person-info flexbox">
+                        <div class="reviews-person-pic">
+                            <img src="images/c4.png" alt="wait fot img">
+                        </div>
+                        <div class="reviews-person-det">
+                            <h2 class="reviews-person-name">team leaker</h2>
+                            <h4 class="reviews-person-location">london,uk</h4>
+                            <div class="reviews-rating-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-person-comment">
+                        <p class="reviews-comment">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </div>
+                <!-- reviews card3 -->
+                <div class="reviews-card">
+                    <div class="reviews-person-info flexbox">
+                        <div class="reviews-person-pic">
+                            <img src="images/c3.png" alt="wait fot img">
+                        </div>
+                        <div class="reviews-person-det">
+                            <h2 class="reviews-person-name">monirul islam</h2>
+                            <h4 class="reviews-person-location">iran</h4>
+                            <div class="reviews-rating-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-person-comment">
+                        <p class="reviews-comment">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </div>
+                <!-- reviews card4 -->
+                <div class="reviews-card">
+                    <div class="reviews-person-info flexbox">
+                        <div class="reviews-person-pic">
+                            <img src="images/c5.png" alt="wait fot img">
+                        </div>
+                        <div class="reviews-person-det">
+                            <h2 class="reviews-person-name">john wick</h2>
+                            <h4 class="reviews-person-location">london,uk</h4>
+                            <div class="reviews-rating-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-person-comment">
+                        <p class="reviews-comment">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CLIENTS REVIEWS close -->
+    <!-- REVIEWS count start  -->
+    <section id="reviews-count">
+        <div class="container">
+            <div class="count-row flexbox">
+                <div class="count-box">
+                    <div class="count-num">
+                        <span>90 k+</span>
+                    </div>
+                    <div class="count-name">
+                        <h3>listings</h3>
+                    </div>
+                </div>
+                <div class="count-box">
+                    <div class="count-num">
+                        <span>40 k+</span>
+                    </div>
+                    <div class="count-name">
+                        <h3>listings</h3>
+                    </div>
+                </div>
+                <div class="count-box">
+                    <div class="count-num">
+                        <span>65 k+</span>
+                    </div>
+                    <div class="count-name">
+                        <h3>listings</h3>
+                    </div>
+                </div>
+                <div class="count-box">
+                    <div class="count-num">
+                        <span>50 k+</span>
+                    </div>
+                    <div class="count-name">
+                        <h3>listings</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- REVIEWS count close  -->
+    <section id="articles">
+        <div class="container">
+            <h2 class="site-heading">NEWS AND ARTICLES</h2>
+            <p class="site-sub-text">Always upto date with our latest News and Articles</p>
+            <!-- article row start-->
+            <div class="article-card-row flexbox">
+                <!-- article card 1 -->
+                <div class="article-card wow animate__animated animate__zoomIn">
+                    <div class="article-img">
+                        <img src="images/b1.jpg" alt="">
+                    </div>
+                    <div class="article-text-content">
+                        <h2 class="article-heading">
+                            <a href="#">
+                                How to find your Desired Place more quickly</a>
+                        </h2>
+                        <h4 class="article-det">
+                            posted
+                            <span>by</span>
+                            <a href="#">admin</a>
+                            march 2018
+                        </h4>
+                        <div class="article-text">
+                            Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore
+                            incididunt ut labore et dolore magna.
+                        </div>
+                    </div>
+                </div>
+                <!-- article card 2 -->
+                <div class="article-card wow animate__animated animate__zoomIn">
+                    <div class="article-img">
+                        <img src="images/b2.jpg" alt="">
+                    </div>
+                    <div class="article-text-content">
+                        <h2 class="article-heading">
+                            <a href="#">
+                                How to find your Desired Place more quickly</a>
+                        </h2>
+                        <h4 class="article-det">
+                            posted
+                            <span>by</span>
+                            <a href="#">admin</a>
+                            march 2018
+                        </h4>
+                        <div class="article-text">
+                            Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore
+                            incididunt ut labore et dolore magna.
+                        </div>
+                    </div>
+                </div>
+                <!-- article card 3 -->
+                <div class="article-card wow animate__animated animate__zoomIn">
+
+
+                    <div class="article-img">
+                        <img src="images/b3.jpg" alt="">
+                    </div>
+                    <div class="article-text-content">
+                        <h2 class="article-heading">
+                            <a href="#">
+                                How to find your Desired Place more quickly</a>
+                        </h2>
+                        <h4 class="article-det">
+                            posted
+                            <span>by</span>
+                            <a href="#">admin</a>
+                            march 2018
+                        </h4>
+                        <div class="article-text">
+                            Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore
+                            incididunt ut labore et dolore magna.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- article row close-->
+        </div>
+    </section>
+    <!-- contact start -->
+    <section id="subscription">
+        <div class="container">
+            <h2 class="site-heading">DO YOU WANT TO ADD YOUR BUSINESS LISTING WITH US?</h2>
+            <p class="site-sub-text">Listrace offer you to list your business with us and we very much able to promote
+                your Business.</p>
+            <div class="subscription-content">
+                <div class="mail-form">
+                    <form action="#">
+                        <input type="email" placeholder="enter your email here">
+                        <button type="submit">create account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact close-->
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="footer-menu flexbox">
+                <div class="footer-logo">
+                    <a class="footer-btn footer-logo" href="#">
+                        list<span>race</span>
+                    </a>
+                </div>
+                <ul class="flexbox">
+                    <li><a class="footer-btn" href="">how it works</a></li>
+                    <li><a class="footer-btn" href="">explore</a></li>
+                    <li><a class="footer-btn" href="">review</a></li>
+                    <li><a class="footer-btn" href="">blog</a></li>
+                    <li><a class="footer-btn" href="">contact</a></li>
+                    <li><a class="footer-btn" href="">MY ACCOUNT</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
